@@ -21,11 +21,11 @@ class GejalaTableSeeder extends Seeder
         gejala::truncate();
 
         $data = [
-            ['kode_gejala' => 'G001' , 'nama_gejala' => 'Layar Mati', 'deskripsi_gejala'=> 'layar komputer tidak menyala'],
-            ['kode_gejala' => 'G002' , 'nama_gejala' => 'keyboard ketik tidak semestinya', 'deskripsi_gejala'=> 'keyboard ketik tidak semestinya '],
-            ['kode_gejala' => 'G003' , 'nama_gejala' => 'booting lama', 'deskripsi_gejala'=> 'booting lama sekali'],
+            ['kode_gejala' => 'G001' , 'nama_gejala' => 'Kerusakan di layar laptop', 'deskripsi_gejala'=> 'layar komputer tidak menyala'],
+            ['kode_gejala' => 'G002' , 'nama_gejala' => 'Kerusakan di keyboard', 'deskripsi_gejala'=> 'keyboard ketik tidak semestinya '],
+            ['kode_gejala' => 'G003' , 'nama_gejala' => 'Kerusakan pada hard disk', 'deskripsi_gejala'=> 'booting lama sekali'],
             ['kode_gejala' => 'G004' , 'nama_gejala' => 'kipas mengeluarkan suara', 'deskripsi_gejala'=> 'kipas mengeluarkan suara keras'],
-            ['kode_gejala' => 'G005' , 'nama_gejala' => 'daya tidak terisi', 'deskripsi_gejala'=> 'daya tidak bisa terisi'],
+            ['kode_gejala' => 'G005' , 'nama_gejala' => 'Kerusakan pada baterai', 'deskripsi_gejala'=> 'daya tidak bisa terisi'],
          
         ];
 
